@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
-import WorkProcess from "./components/Workprocess";
+import WorkProcess from "./components/WorkProcess";
 import Projects from "./components/Projects";
 import ExperienceEducation from "./components/ExperienceEducation";
 import Contact from "./components/Contact";

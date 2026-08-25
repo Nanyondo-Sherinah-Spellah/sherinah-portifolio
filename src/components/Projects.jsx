@@ -1,4 +1,5 @@
 import nyondostock from "../assets/nyondo.PNG";
+import imustplay from "../assets/imustplay.png"
 
 const projects = [
   {
@@ -24,18 +25,18 @@ const projects = [
   },
   {
     title: "I Must Play App",
-    image: null,
+    image: imustplay,
     description:
       "An application built to bridge the gap between talented players in underserved areas and professional clubs and academies by providing a platform for discovery and connection.",
     technologies: [
-      "Firebase",
+      "Base44",
       "Tailwind CSS",
       "MVVM Architecture",
     ],
     features: [
       "Authentication",
       "Search & Filtering",
-      "Firebase Integration",
+      "Base44 Integration",
     ],
   },
 ];
