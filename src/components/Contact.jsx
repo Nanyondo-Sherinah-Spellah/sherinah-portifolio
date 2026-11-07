@@ -135,7 +135,7 @@ export default function Contact() {
             <div className="flex items-center gap-5 bg-[#11182B] border border-[#27324A] rounded-2xl p-5  hover:translate-x-2 mb-5 hover:border-[#6C63FF] transition-all duration-300">
               <Phone className="text-[#6C63FF]" size={22} />
               <span className="text-white">
-                +256 754 888980 / +256 744 631017
+                +256 754 888980 / +256 709 117600
               </span>
             </div>
 

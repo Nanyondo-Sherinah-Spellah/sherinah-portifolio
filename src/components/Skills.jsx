@@ -1,18 +1,17 @@
 function Skills() {
-  const programming = ["JavaScript", "Python", "HTML", "CSS"];
+  const programming = ["JavaScript", "Python", "HTML & CSS", "Typescript"];
 
-  const frameworks = ["Bootstrap", "Tailwind CSS"];
+  const frameworks = ["Bootstrap & Tailwind CSS", "LangChain", "Streamlit", "React"];
 
-  const databases = ["MongoDB", "SQL"];
+  const databases = ["MongoDB", "SQL", "Postgress"];
 
   const tools = ["Git", "GitHub", "VS Code", "XAMPP"];
 
   const otherSkills = [
-    "Agile Team Development",
-    "Lean Methodology",
+    "RAG",
+    "Large Language Models",
+    "AI data & Retrieval",
     "Application Security",
-    "Critical Thinking",
-    "Research",
   ];
 
   const SmallCard = ({ item }) => (

@@ -22,7 +22,7 @@ function About() {
                   01.
                 </span>{" "}
                 <span className="text-4xl font-bold text-white">
-                    About Sheriflix
+                    About me
                 </span>
             </p>
 
@@ -30,12 +30,7 @@ function About() {
 
             <p className="mt-8 text-gray-400 text-lg leading-relaxed">
 
-              Sheriflix Solutions UG is a Mukono based company that builds
-              custom websites, web systems, and mobile applications.
-
-              We specialise in turning ideas into reliable digital products,
-              company portals, Android apps, and more. Every solution is
-              secure, scalable, and built to grow with your business.
+             I specialise in developing custom websites, web applications, business systems, and mobile applications, transforming ideas into functional, secure, and scalable products. I also explore AI development, including building intelligent AI agents and automating workflows to create smarter digital experiences.
 
             </p>
 
@@ -47,6 +42,41 @@ function About() {
               documented, tested, and ready to grow with your business.
 
             </p>
+
+            <br />
+            <br />
+            <br />
+   
+            
+
+             <div
+              className="
+              rounded-3xl 
+              bg-[#111827]
+              border border-green-400/20
+              p-7
+              hover:border-[#6C63FF] hover:translate-y-2 transition-all duration-300
+             
+              "
+            >
+
+              <div className="text-4xl mb-5">
+                🤖
+              </div>
+
+
+              <h3 className="text-2xl font-bold">
+                AI Agent Development & Automation
+              </h3>
+
+
+              <p className="mt-3 text-gray-400 leading-relaxed">
+
+                Designing and developing intelligent AI agents that reason, make decisions, use tools, manage workflows, and automate tasks to solve real-world problems. Experienced in building AI-powered solutions using agent architectures, LLMs, workflow orchestration, memory management, and human-in-the-loop systems.
+
+              </p>
+
+            </div>
 
 
           </div>
@@ -166,120 +196,6 @@ function About() {
 
         </div>
 
-
-
-
-
-        {/* FOUNDER SECTION */}
-        <div
-          className="
-          mt-20
-          rounded-3xl
-          bg-[#111827]
-          border border-white/10
-          p-8 md:p-10
-          transition-all
-          duration-500
-          hover:border-[#6C63FF]
-          hover:shadow-[0_0_30px_rgba(34,197,94,0.25)]
-          "
-        >
-
-
-          <div className="flex flex-col md:flex-row gap-10 items-center">
-
-
-            {/* PHOTO LEFT */}
-            <div className="flex-shrink-0">
-
-              <img
-                src={founder}
-                alt="Sherinah Spellah"
-                className="
-                w-36
-                h-36
-                md:w-44
-                md:h-44
-                rounded-full
-                object-cover
-                border-4
-                border-[#6C63FF]
-                "
-              />
-
-            </div>
-
-
-
-
-
-            {/* EDUCATION RIGHT */}
-            <div>
-
-
-            <div className="inline-block bg-[#6C63FF] px-5 py-2 rounded-3xl">
-              <h3 className="text-xl font-bold text-white">
-                FOUNDER
-              </h3>
-
-            </div>
-
-
-              <p className="text-white-400 font-semibold mt-2">
-                Sherinah Spellah
-              </p>
-
-
-
-              <p className="mt-4 text-gray-400 text-lg leading-relaxed">
-
-                My journey in technology began with a passion for
-                programming, innovation, and solving problems through
-                software.
-
-                Through continuous learning and practical experience,
-                I developed skills in software engineering, web
-                development, mobile applications, and artificial
-                intelligence.
-
-                Today, I focus on building digital products that help
-                businesses and organisations operate efficiently
-                and grow.
-
-              </p>
-
-
-
-
-              {/* SKILLS */}
-              <div className="mt-6 flex flex-wrap gap-3">
-
-
-                <span className="px-4 py-2 rounded-full bg-[#6C63FF] text-white">
-                  Software Engineering
-                </span>
-
-
-                <span className="px-4 py-2 rounded-full bg-[#6C63FF] text-white">
-                  Artificial Intelligence
-                </span>
-
-
-                <span className="px-4 py-2 rounded-full bg-[#6C63FF] text-white">
-                  Full Stack Development
-                </span>
-
-
-              </div>
-
-
-            </div>
-
-
-          </div>
-
-
-        </div>
 
 
       </div>
